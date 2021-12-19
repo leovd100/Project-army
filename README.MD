@@ -2,4 +2,4 @@
 
 ![img](https://github.com/leovd100/Project-army/blob/main/assets/imgs/readmeImgs/photo01.png)
 
-![img](./assets/imgs/readmeImgs/photo02.png)
+<img src="./assets/imgs/readmeImgs/photo02.png" width="500px">
