@@ -1,0 +1,68 @@
+#header__army{
+    
+    align-items: center;
+    background-color: black;
+    
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+    
+}
+
+
+.header__army___component{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+   
+}
+
+.army__component___list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 2rem 1rem 6rem ;
+    
+}
+
+.army__component___list li {
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 2px;
+}
+
+.army__component___list li:hover{
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.army__component___list li:nth-child(3){
+    font-size: 1.5rem;
+    background-color: red;
+    padding: 5px;
+}
+
+
+
+.army__login__button{
+    border: 2px solid red;
+    width: 5rem;
+    margin-right: 25px;
+    padding: 0.2rem;
+    border-radius: 5%;
+}
+
+.army__login__button h2{
+    text-align: center;
+}
+
+.army__login__button:hover{
+    cursor: pointer;
+}
+
