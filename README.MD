@@ -1,3 +1,3 @@
 # PROJETO SITE FPS
 
-![img](./assets/imgs/readmeimgs/photo01.png)
+![img](https://github.com/leovd100/Project-army/blob/main/assets/imgs/readmeImgs/photo01.png)
