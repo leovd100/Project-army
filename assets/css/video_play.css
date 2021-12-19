@@ -1,0 +1,12 @@
+
+.video_play{
+    position: absolute;
+    width: 40rem;
+    height: 20rem;
+    border: 2px solid white;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0)) 
+    drop-shadow(2px 2px 10px black) 
+    drop-shadow(1px 1px 10px black)
+    drop-shadow(1px 1px 10px black);
+    background-color: rgb(0, 0, 0);
+}
