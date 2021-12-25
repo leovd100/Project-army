@@ -17,6 +17,8 @@
     background-color: white;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     transition: all 1s ease-in-out;
+    filter: contrast(110%);
+    background-size: cover;
     
 }
 .hex:hover{
@@ -24,6 +26,7 @@
     height: 14rem;
     width: 15rem;
     cursor: pointer;
+    
 }
 .spart_fire{
     position: absolute;
@@ -48,66 +51,35 @@
     transform: rotateZ(120deg);
 }
 
-.main__content{
-     margin-top: 15px;
-    padding: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-   
+.block_shadow .hexInfo .hex{
+    background-repeat: no-repeat;
+    
+    
 }
 
-div[content]{
-    display: flex;
-    flex-direction: row;
-    margin: 2rem;
-}
 
-div[content]:nth-child(2n){
-    flex-direction: row-reverse;
-}
 
-.block__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
-.block__content img{
-    width: 30rem;
-    height: 20rem;
-    margin: 2rem;
-    background-color: black;
-}
 
-.text__content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30rem;
-    height: 20rem;
-}
-
-.hexInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.hexInfo h2{
-    margin-top: 15px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: white;
-}
 
 .block_shadow .hexInfo:nth-child(3) >.hex{
     background: url("../imgs/png/maps.jpg");
-    background-repeat: no-repeat;
+    filter: contrast(110%);
     background-size: cover;
-    filter: contrast(110%)
+   
 }
+
+.block_shadow .hexInfo:nth-child(2) >.hex{
+    background-image: url("../imgs/teste.png");
+  
+}
+
+.block_shadow .hexInfo:nth-child(1) >.hex{
+    background-image: url("../imgs/alvo.png");
+    filter: contrast(110%);
+    background-size: cover;
+    
+}
+
+
+
